@@ -1,0 +1,128 @@
+
+.page{
+  height: 100vh;
+  background-color: #FDEDEC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.cont{
+  height: 550px;
+  width: 700px;
+  border-radius: 10px;
+  border-width: medium;
+  border-style: solid;
+  border-color: lightseagreen;
+  background-color: #FCD5D5 ;
+
+}
+.heading{
+  text-align: center;
+  font-family:  "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 2rem;
+  font-weight: bold;
+
+}
+.img-holder{
+  width: 150px;
+  height: 150px;
+  border: 3px black solid;
+  border-radius: 5px;
+  margin: 2rem auto auto;
+}
+.img2{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+#input[type="file"] {
+	display: none;
+}
+.label{
+  width: 100%;
+  margin-top: 2rem;
+  display: inline-flex;
+}
+
+.image-upload{
+  font-size: 20px;
+  width: 200px;
+  height: 100%;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 20%;
+  margin-right: 5%;
+
+}
+.image-holder img{
+  clip-path: fill-box;
+}
+
+.analysis{
+  font-size: 20px;
+  width: 200px;
+  height: 65px;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 5%;
+  margin-right: 20%;
+}
+
+.info{
+  margin-top: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 18px;
+}
+.sender {
+  display: flex;
+  position: relative;
+  height: 40px;
+  margin-top: 2rem;
+}
+
+.sender input {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 30px;
+  border-radius: 17px;
+  font-size: 20px;
+  color: #000;
+  height: 100%;
+  margin-left: 20%;
+}
+
+.sender placeholder {
+    color: #272727;
+  }
+
+.sender button{
+  position: absolute;
+  right: 25%;
+  height: 100%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: darkslategray;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  padding:0 15px;
+}
+
+.sender button:hover{
+  background-color: lightseagreen;
+}

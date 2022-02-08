@@ -1,0 +1,53 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  background-image:linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)),url("../assets/301a02ede8741050ddcb8b61338db3a262c376ca76597a2ab1daa5729f6120083c4ec133a8afb63c71fb0237ca4f60e92782ecde3621981ea45e10_1280.jpg");
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 60%;
+  align-items: center;
+  background-color: #FDEDEC;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.image img {
+  max-width: 100%;
+  clip-path: circle();
+}
+
+.image {
+  flex-basis: 40%;
+}
+.text p {
+  width: 600px;
+  font-size: 20px;
+
+}
+
+.header h1 {
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+  transform: translateY(40px);
+}
+
